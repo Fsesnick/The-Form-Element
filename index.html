@@ -12,17 +12,26 @@
 
       <form action="index.html">
         <h1>Sign Up</h1>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="user_name">
         
-        <label for="mail">Email:</label>
-        <input type="email" id="mail" name="user_email">
+        <fieldset>
         
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="user_password">
-        
-        <label for="bio">Biography</label>
-        <textarea id="bio" name="user_bio"></textarea>
+          <legend><span class="number">1</span> Suas informações basicas</legend> 
+          
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name">
+          
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email">
+          
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="user_password">
+          
+       </fieldset>
+       <fieldset>
+         <legend><span class="number">2</span> Seu perfil</legend> 
+          <label for="bio">Biography</label>
+          <textarea id="bio" name="user_bio"></textarea>
+       </fieldset> 
         
         <button type="submit">Sign UP</button>
         
